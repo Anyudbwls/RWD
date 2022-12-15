@@ -1,20 +1,23 @@
+/* css변수s */
+
 :root {
   --white: #fff;
   --black: #000;
   --silver: #767676;
+  --dark-sky: linear-gradient(rgb(38, 31, 80), rgb(75, 40, 85));
   --dark-brown: #38302e;
   --light-brown: #988574;
   --light-yellow: #ffc;
   --yellow-opacity: hsla(60, 50%, 50%, 0.85);
-
+  --gra-lime: linear-gradient(rgb(106, 219, 183), rgb(200, 130, 223));
   --green: #abd375;
   --yellow: #e8ca58;
   --orange: #eea60a;
   --brown: #988574;
   --blue: #6aaee6;
 
-  --primary-color: var(--dark-brown);
-  --secondary-color: var(--light-brown);
+  --primary-color: var(--dark-sky);
+  --secondary-color: var(--gra-lime);
   --accent-color: var(--light-yellow);
   --accent-opacity-color: var(--yellow-opacity);
 
@@ -24,6 +27,8 @@
   --accent-favorite: var(--orange);
   --accent-twitter: var(--blue);
 
+  --spacing-sxxs: 0.125rem; /*2px*/
+  --spacing-xxs: 0.25rem; /*4px*/
   --spacing-xs: 0.5rem; /* 8px */
   --spacing-sm: 0.75rem; /* 12px */
   --spacing-base: 1rem; /* 16px */
