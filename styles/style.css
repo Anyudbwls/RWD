@@ -150,11 +150,48 @@ input[type='search'] {
 /* 공통 추천 서적 */
 .book {
   grid-area: book;
+  margin: 0 auto;
+  font-size: var(--text-md);
+  display: flex;
+  flex-flow: column;
+}
+.book__cover {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.book__coverCaption {
+  margin-top: var(--spacing-base);
+}
+.book__info {
+  text-align: center;
+  margin-top: 10px;
+}
+.book__info dd {
+  text-align: center;
+  display: inline;
+  margin-top: var(--spacing-base);
+}
+.book__info dt {
+  display: inline;
+}
+.accentBook.ratingStar {
+  display: flex;
+  justify-content: center;
+}
+.book__summary {
+  padding-top: 10px;
+  line-height: 1.4;
 }
 
 /* 공통 새소식 */
 .news {
   grid-area: news;
+}
+.news__date {
+  display: flex;
+  justify-content: flex-end;
 }
 
 /* 공통 게시판 */
