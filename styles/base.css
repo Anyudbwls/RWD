@@ -31,3 +31,13 @@ video {
   width: 100%;
   height: auto;
 }
+
+/* 반응형 Iframe */
+.iframeWrapper {
+  /* background-color: blueviolet; */
+  display: block;
+}
+.iframeWrapper iframe {
+  width: 100%;
+  height: 56vw;
+}
